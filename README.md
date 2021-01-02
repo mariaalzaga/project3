@@ -17,6 +17,7 @@ Data source: The dataset pertaining to flight delays is downloaded from the Bure
 **Actions and Tasks:** • Analyze the BTS database. • Search for new data sets (not required) • Find and clean the data. Create schema. • Explore and visualize the data. • Determine the visualizations. • Create the web app using HTML, CSS, Bootstrap, JS. • Plotting the routes and querying the code in flask python
 
 **Team Members:**
+
 •	Project Manager - Felipe Lopez
 
 •	Lead Developer - Felipe Lopez, Tyler Pohl
