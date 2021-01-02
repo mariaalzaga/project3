@@ -2,10 +2,6 @@
 
 
 
-
-
-Project 3 
-Group members – Felipe Lopez, Tyler Pohl, Kasmira Madina, Maria Alzaga and Priyanka Garg
 # Airline statistics and delay causes
 **Project Description:** The overall goal of this project is to investigate the general basis of flight delays and identify airlines, airports and routes with the highest delay rates. Data Flight delay statistics for this project are originally sourced from the Bureau of Transportation Statistics(BTS). The project demonstrates visualizations with multiple views on flight delay dataset across major airports, airlines, routes and months of the year. The airlines report the causes of delays in five broad categories: Air Carrier, Extreme Weather, National Aviation System (NAS), Late-arriving aircraft, Security. It provides users the ability to easily access and interpret timeseries flight delay statistics for various airports spread across the USA and the reason of likelihood a flight will be delayed at a particular airport and the trending performance of a particular airport in terms of its likelihood of flight delay.
 
@@ -20,7 +16,16 @@ Data source: The dataset pertaining to flight delays is downloaded from the Bure
 
 **Actions and Tasks:** • Analyze the BTS database. • Search for new data sets (not required) • Find and clean the data. Create schema. • Explore and visualize the data. • Determine the visualizations. • Create the web app using HTML, CSS, Bootstrap, JS. • Plotting the routes and querying the code in flask python
 
+**Team Members:**
+•	Project Manager - Felipe Lopez
 
+•	Lead Developer - Felipe Lopez, Tyler Pohl
+
+•	Frontend Developer - Priyanka Garg, Felipe Lopez
+
+•	Backend Developer - Maria Alzaga, Tyler Pohl, Felipe Lopez and Kasmira Madina
+
+•	Data Engineer/Data Modeler - Tyler Pohl, Felipe Lopez, Maria Alzaga
 
 
 
