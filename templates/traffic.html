@@ -1,0 +1,16 @@
+{% extends 'test_copy.html' %}
+{% block title %}traffic{% endblock %}
+
+{% block content %}
+
+<h2>Airport Traffic by geographic location - Most busiest and Least busiest airport</h2>
+        <hr>
+    <div id="myPlot">
+    </div>
+    <script>
+        Plotly.newPlot("myPlot", {{ fig1 | safe }})
+    </script>
+    <p style ="font-weight: bold;" > Observation: Airport Traffic: Atlanta has top most airport traffic with DFW and Los Angeles coming to a close second
+        as years pass.</p>
+    
+{% endblock %}
