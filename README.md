@@ -1,5 +1,6 @@
 
-# Airline statistics and delay causes
+# Netflix Trends and Analysis 
+
 **Project Description:** The overall goal of this project is to analyze content on Netflix streaming platform as it varies by country. Data was obtained for this project from Flixable (a third-party Netflix search engine) and Kaggle. The project will demonstrate visualizations looking at content on Netflix. These visualizations will dissect multiple fields related to the videos on the platform across different countries and genres, as well as providing users with a way to find similar content to shows they already like.
 
 **Project Proposal:** The overall goal of the project is to investigate trends relating to content on Netflix (TV shows and movies) available I different countries, identify similar content, what type of content that is favored by Netflix and links between actors / directors . We will illustrate our findings using D3 visualizations to demonstrate similarities and differences in content as they very from country, type, rating, director, cast, etc. We also want to create an interactive section where a user can impute a movie they like and show matches based off genre, cast, director, rating and/or country. Furthermore, we would also like to observe trends in Netflix revenue data so users of our app can see trends in revenue by region and yearly quarter.
