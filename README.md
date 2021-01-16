@@ -1,22 +1,14 @@
-# p2test
-
-https://p2test-airline.herokuapp.com/
-
-
 
 # Airline statistics and delay causes
-**Project Description:** The overall goal of this project is to investigate the general basis of flight delays and identify airlines, airports and routes with the highest delay rates. Data Flight delay statistics for this project are originally sourced from the Bureau of Transportation Statistics(BTS). The project demonstrates visualizations with multiple views on flight delay dataset across major airports, airlines, routes and months of the year. The airlines report the causes of delays in five broad categories: Air Carrier, Extreme Weather, National Aviation System (NAS), Late-arriving aircraft, Security. It provides users the ability to easily access and interpret timeseries flight delay statistics for various airports spread across the USA and the reason of likelihood a flight will be delayed at a particular airport and the trending performance of a particular airport in terms of its likelihood of flight delay.
+**Project Description:** The overall goal of this project is to analyze content on Netflix streaming platform as it varies by country. Data was obtained for this project from Flixable (a third-party Netflix search engine) and Kaggle. The project will demonstrate visualizations looking at content on Netflix. These visualizations will dissect multiple fields related to the videos on the platform across different countries and genres, as well as providing users with a way to find similar content to shows they already like.
 
-**Project Proposal:** The overall goal of this project is to continue with our project 2 but dig deeper. We will use D3 visualizations to create a flight prediction tool in order to see how flights will be affected based on weather, traffic, air carrier delays, etc. We want to create an interactive calendar that will give you an estimated delays for the time one is traveling. More interactive map for flights in the USA and a weather report for each airport to see how it affects delays.
+**Project Proposal:** The overall goal of the project is to investigate trends relating to content on Netflix (TV shows and movies) available I different countries, identify similar content, what type of content that is favored by Netflix and links between actors / directors . We will illustrate our findings using D3 visualizations to demonstrate similarities and differences in content as they very from country, type, rating, director, cast, etc. We also want to create an interactive section where a user can impute a movie they like and show matches based off genre, cast, director, rating and/or country. Furthermore, we would also like to observe trends in Netflix revenue data so users of our app can see trends in revenue by region and yearly quarter.
 
-**Hypothesis:** We believe that during the winter/holidays air traffic and delays will affect flights. 
-Data source: The dataset pertaining to flight delays is downloaded from the Bureau of Transportation Statistics (BTS), Airline Service Quality Performance 234 which stores, analyzes and maintains the transportation data https://www.transtats.bts.gov/OT_Delay/OT_DelayCause1.asp?pn=1 The dataset consists of information about 23 carriers and 373 airports from year 2013-2018. For the exact geo locations for each airport, we used the dataset airport codes locations.
-
-**New enhancements to project 2:** Interactive D3 visualization • transitions and tool tips for D3 visualizations. • Interactive calendar • Interactive map 
+**Hypothesis:** We believe there will be a greater number of tv shows being added to Netflix compared to movies. We also believe we will see similar trends in types of content and genre being added in countries with similar language and cultural background. Finally, we believe man actors and directors will work together on many creations.
 
 **Technologies Used:** • Flask • HTML/CSS/Bootstrap • Database Postgress, sqlite • Plotly/D3 or any other technologies. • Deployment using Heroku
 
-**Actions and Tasks:** • Analyze the BTS database. • Search for new data sets (not required) • Find and clean the data. Create schema. • Explore and visualize the data. • Determine the visualizations. • Create the web app using HTML, CSS, Bootstrap, JS. • Plotting the routes and querying the code in flask python
+**Actions and Tasks:** • Analyze the Faggle & Flixable datasets. • Search for new data sets (not required) • Find and clean the data. Create schema. • Explore and visualize the data. • Determine the visualizations. • Create the web app using HTML, CSS, Bootstrap, JS. • Plotting the routes and querying the code in flask python
 
 **Team Members:**
 
@@ -24,8 +16,8 @@ Data source: The dataset pertaining to flight delays is downloaded from the Bure
 
 •	Lead Developer - Felipe Lopez, Tyler Pohl
 
-•	Frontend Developer - Priyanka Garg, Felipe Lopez
+•	Frontend Developer - Priyanka Garg
 
 •	Backend Developer - Maria Alzaga, Tyler Pohl, Felipe Lopez and Kasmira Madina
 
-•	Data Engineer/Data Modeler - Tyler Pohl, Felipe Lopez, Maria Alzaga
+•	Data Engineer/Data Modeler - Felipe Lopez, Maria Alzaga
