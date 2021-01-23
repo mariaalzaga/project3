@@ -1,0 +1,148 @@
+{% extends 'test.html' %}
+{% block title %}Welcome{% endblock %}
+{% block content %}
+
+
+
+<!-- Masthead -->
+<header class="masthead text-white text-center">
+  <div class="overlay"></div>
+  <div class="container" style="background: url(/static/images/bg-masthead1.jpg); width: 1300px; height: 500px;">
+    <div class="row">
+      <div class="col-xl-9 mx-auto">
+        <h1 class="mb-5" style="color: white;">Netflix search engine - Search by movie title</h1>
+      </div>
+      <br>
+      <br>
+      <div class="col-md-10 col-lg-8 col-xl-7 mx-auto" style="border: 30px; max-width: 900px; margin: auto;" >
+        <form>
+          <div class="form-row" >
+            <div class="col-12 col-md-9 mb-2 mb-md-0" >
+              <input type="email" class="form-control form-control-lg" placeholder="Enter movie name...">
+            </div>
+            <div class="col-12 col-md-3">
+              <button type="submit" class="btn btn-block btn-lg btn-warning" ><a href="{{ url_for('search')}}">Submit!</a></button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div><br>
+    <br>
+    <br>
+
+    <div class="row">
+      <div class="box">
+        <p style="color: sandybrown;">
+          This project aims to build a movie recommendation mechanism and data analysis within Netflix.
+        </p>
+        <br>
+      <p style="color: sandybrown;">In this project we plan to investigate trends relating to content on Netflix (TV shows and movies) available in different countries, identify similar content and <br> the type of content that is favored by Netflix and links between actors/directors.<br> The highlight of this project are the D3 <B style="color: deepskyblue;">VISUALIZATIONS </B> as well as <B style="color: crimson;">SEARCH ENGINE </B> that uses machine learning, NLP (Natural Language Processing) - Text Classification using scikit-learn.</p>
+        <p style="color: sandybrown;"> This is a text based recommendation engine. It indirectly finds the highest and smallest angle between two vectors by finding the largest cosine between the two vectors.
+      </p>
+        </p>
+      
+      </div>
+    </div>
+  </div>
+</header>
+ 
+    <!--div class = "container" >-->                      
+            <!--<h2>Welcome to home page</h2>-->
+           <!-- <img src= "static/images/image5.jpg" alt="first image" style="margin-top:0px; width:1300px ;height:auto; padding-top: 0px;">-->
+            <!--<p class="p1">The overall goal of this project is to investigate the general basis of flight delays and identify airlines, airports and routes with the highest delay rates. Data Flight delay statistics for this project are originally sourced from the Bureau of Transportation Statistics(BTS). The project demonstrates visualizations with multiple views on flight delay dataset across major airports, airlines, routes and months of the year.</p>
+            <p class= "p1">The airlines report the causes of delays in five broad categories: Air Carrier, Extreme Weather, National Aviation System (NAS), Late-arriving aircraft, Security.It provides users the ability to easily access and interpret timeseries flight delay statistics for various airports spread across the USA and the reason of likelihood a flight will be delayed at a particular airport and the trending performance of a particular airport in terms of its likelihood of flight delay.
+            </p>-->
+        <hr> 
+      <!--  <section class="features-icons bg-light text-center"> 
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+               <div  class="features-icons-icon d-flex">
+                  <i class="icon-screen-desktop m-auto text-primary"></i>
+                </div>
+                <div style="background: url(/static/images/corelation.jpg); width: 100px; height: 50px;"><a href="{{ url_for('corelation')}}"> alt = Corelation</a></div>
+                
+                
+                <h3>correlation between directors and actor</h3>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                  <i class="icon-layers m-auto text-primary"></i>
+                </div>
+                <h3>Heat Map</h3>
+                <p class="lead mb-0">director and actor work on same movies again and again.</p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+                <div class="features-icons-icon d-flex">
+                  <i class="icon-check m-auto text-primary"></i>
+                </div>
+                <h3>Netflix correlation</h3>
+                <p class="lead mb-0">what type of movie or tvshow-which one is fav by each countries.!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+     <!--  <div class="container">
+            <div class="row">
+              <div class="col-lg-7 col-md-12">
+                
+               <div class="box">
+                 <h3 class="title">Project 3 - Netflix Trend And Analysis:</h3>
+                  <p>This project is in continuation with project 2 consists of visualizations with multiple views on flight delay dataset across major airports,routes.The overall goal of this project is to investigate the basis of flight delays and identify airlines, airports and routes.</p>
+                </p>
+                  <p>We use D3 visualizations to create a flight prediction tool in order to see how flights will be affected based on weather, traffic, air carrier delays, etc. There is an interactive calendar that will give you an estimated delays for the time one is traveling. More interactive map for flights in the USA and a weather report for each airport to see how it affects delays.
+                </p>
+                <p>
+                  New enhancements to Project 2: Interactive D3 visualization • transitions and tool tips for D3 visualizations. • Interactive calendar • Interactive map
+                </p>
+                </div>
+                
+              </div>
+              <div class="col-lg-5 col-md-12">
+               
+               <a href="#"> <img class="panel" src="static/images/back.png " width="450" height="400" style="background-color: mistyrose;" alt="Airport Traffic">
+                </a>
+
+                <div class="box">
+                  <h5 class="title"></h5>
+                  <hr>
+
+        
+                  <div class="container">
+                    <div class="row" style="padding-bottom: 30px;">
+                      <div class="col-4">
+
+                        
+                      </div>
+                      
+                    </div>
+                    </div>
+                    </div>
+                  </div>
+        
+               
+        </div> 
+          </div> -->
+               
+          <footer>
+            <div>
+            </div>
+          </footer>
+{% endblock %}       
+            
+                
+   <!-- </div>-->
+<!--<div>
+        <h1>Airline statistics and delay causes</h1>
+        <img src="static/images/bg_img.png" width="1250">
+</div>-->
+
+        
+
+    
